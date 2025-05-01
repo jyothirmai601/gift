@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <style>
+            body{
+            background-color: pink;
+            }
+form{
+    background-color:pink;
+    text-align: center;
+
+
+}
+marquee{
+    color: blueviolet;
+    background-color:aqua;
+}
+h1{
+    color: cornflowerblue;
+}
+#b1{
+    color:aqua;
+    background-color:black;
+}
+a{
+    text-align: end;
+}
+
+
+        </style>
+    </head>
+    <body>
+
+<marquee>enter password and click login</marquee>
+<pre>
+
+
+
+
+
+
+
+
+<form id="f1"  action="" method="get">
+    userid<textarea rows="1" cols="10">We_@006</textarea><br/>
+    password:<input type="password" id="i1" required />
+
+    <input type="button" id="b1" onclick="login2()" name="login" value="login"  /></a>
+
+</form>
+</pre>
+</body>
+<script>
+
+function login2()
+{
+    var a=document.getElementById('i1');
+    if(a.value==123)
+{
+window.location="wel.html";
+    return true;
+    
+
+}
+else{
+    alert("enter valid password");
+    return false;
+}
+}
+
+    
+</script>
+
+</html>
